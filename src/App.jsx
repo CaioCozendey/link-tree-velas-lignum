@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Instagram, Facebook, Mail, Phone, MapPin, ShoppingBag, Sparkles, Star } from 'lucide-react'
+import { Instagram, Phone, Star } from 'lucide-react'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     { id: 3, title: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/velaslignum/', active: true },
     // { id: 4, title: 'Facebook', icon: Facebook, url: '', active: true },
     // { id: 5, title: 'Localização', icon: MapPin, url: '', active: true },
-    { id: 6, title: 'Contato', icon: Mail, url: 'tel:+22998562641', active: true },
+    { id: 6, title: 'Contato', icon: Phone, url: 'tel:+22981497127', active: true },
   ])
 
   return (
